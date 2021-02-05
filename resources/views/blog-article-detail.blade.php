@@ -30,12 +30,7 @@
                     <i class="fas fa-tags"></i><span class="uk-margin-small-left uk-text-bold">Tags: &nbsp;</span>
                     <a href="#" class="uk-link-muted">Regional</a>, &nbsp;<a href="#" class="uk-link-muted">Commodities</a>, &nbsp;<a href="#" class="uk-link-muted">News</a>
                 </div>
-                <div class="uk-float-right in-article-share">
-                    <a href="#" data-uk-tooltip="Share with Facebook" class="uk-label uk-border-pill in-brand-facebook"><i class="fab fa-facebook-f fa-sm"></i></a>
-                    <a href="#" data-uk-tooltip="Share with Twitter" class="uk-label uk-border-pill in-brand-twitter"><i class="fab fa-twitter fa-sm"></i></a>
-                    <a href="#" data-uk-tooltip="Share with Pinterest" class="uk-label uk-border-pill in-brand-pinterest"><i class="fab fa-pinterest-p fa-sm"></i></a>
-                    <a href="#" data-uk-tooltip="Share with Email" class="uk-label uk-border-pill in-generic-email"><i class="fas fa-envelope fa-sm"></i></a>
-                </div>
+                
             </div>
         </article>
     </div>

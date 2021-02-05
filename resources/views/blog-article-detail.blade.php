@@ -28,7 +28,11 @@
             <div class="uk-card-footer uk-clearfix">
                 <div class="uk-float-left in-article-tags">
                     <i class="fas fa-tags"></i><span class="uk-margin-small-left uk-text-bold">Tags: &nbsp;</span>
-                    <a href="#" class="uk-link-muted">Regional</a>, &nbsp;<a href="#" class="uk-link-muted">Commodities</a>, &nbsp;<a href="#" class="uk-link-muted">News</a>
+                    @foreach ($article->tags as $tag)
+                        <a href="#" class="uk-link-muted">{{ $tag->value }}</a>,
+                    @endforeach
+                    
+                    
                 </div>
                 
             </div>

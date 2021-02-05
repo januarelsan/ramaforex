@@ -16,8 +16,8 @@ use App\Http\Controllers\ArticleController;
 Auth::routes();
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('index');
 
 Route::get('/blog/article/detail/{id}', [ArticleController::class, 'show']);
 Route::get('/home', 'HomeController@index')->name('home');

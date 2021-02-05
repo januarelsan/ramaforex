@@ -15,9 +15,10 @@ class CreateArticlesTable extends Migration
     {
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users');
+            $table->foreignId('user_id')->constrained('users');            
+            $table->string('img_url')->nullable();
             $table->string('title');
-            $table->string('body');            
+            $table->string('body', 10000);            
             $table->timestamps();
         });
     }

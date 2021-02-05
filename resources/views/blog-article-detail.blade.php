@@ -4,7 +4,7 @@
 
 <div class="uk-grid uk-flex uk-flex-center in-blog-1 in-article">
     <div class="uk-width-1-1 in-figure-available">
-        <img class="uk-width-1-1 uk-border-rounded" src="{{ asset('wave/img/in-blog-image-10.jpg')}}" alt="sample-image">
+        <img class="uk-width-1-1 uk-border-rounded" src="{{ URL::to($article->img_url) }}" alt="sample-image">
     </div>
     <div class="uk-width-3-4@m">
         <article class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded">

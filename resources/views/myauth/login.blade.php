@@ -45,7 +45,7 @@
                                         <img class="uk-margin-small-right in-offset-top-10" src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/in-logo-1.svg')}}" alt="wave" width="134" height="23" data-uk-img>
                                     </a>
                                     <!-- module logo begin -->
-                                    <p class="uk-text-lead uk-margin-top uk-margin-remove-bottom">Log into your account</p>
+                                    <p class="uk-text-lead uk-margin-top uk-margin-remove-bottom">Masuk Akun</p>
                                     <p class="uk-text-small uk-margin-remove-top uk-margin-medium-bottom">Belum Punya Akun? <a href="{{ route('register')}}">Daftar</a></p>
                                     <!-- login form begin -->
                                     <form class="uk-grid uk-form" method="POST" action="{{ route('login') }}">
@@ -68,7 +68,7 @@
                                         
                                         
                                         <div class="uk-margin-small uk-width-1-1">
-                                            <button class="uk-button uk-width-1-1 uk-button-primary uk-border-rounded uk-float-left" type="submit" >Sign in</button>
+                                            <button class="uk-button uk-width-1-1 uk-button-primary uk-border-rounded uk-float-left" type="submit" >Masuk</button>
                                             
                                         </div>
                                     </form>

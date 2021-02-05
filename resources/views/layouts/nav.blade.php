@@ -20,12 +20,12 @@
             </ul>
             <div class="uk-navbar-item uk-visible@m in-optional-nav">
                 @guest								
-                    <a href="{{ route('home')}}" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Log in</a>
-                    <a href="{{ route('register')}}" class="uk-button uk-button-primary uk-button-small uk-border-pill">Sign up</a>
+                    <a href="{{ route('home')}}" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Masuk</a>
+                    <a href="{{ route('register')}}" class="uk-button uk-button-primary uk-button-small uk-border-pill">Daftar</a>
                 @else
-                    <a href="#" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>{{ Auth::user()->name }}</a>                            
+                    <a href="#" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>{{ Auth::user()->name }} | {{ Auth::user()->roles[0]->name }}</a>                            
                     <a href="{{ route('logout') }}" class="uk-button uk-button-primary uk-button-small uk-border-pill" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                        Log Out
+                        Keluar
                     </a>                                                                
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

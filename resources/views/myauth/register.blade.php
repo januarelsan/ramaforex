@@ -46,7 +46,7 @@
                                     </a>
                                     <!-- module logo begin -->
                                     <p class="uk-text-lead uk-margin-top uk-margin-remove-bottom">Daftar Akun Baru</p>
-                                    <p class="uk-text-small uk-margin-remove-top uk-margin-medium-bottom">Sudah Punya Akun? <a href="{{route('home')}}">Login</a></p>
+                                    <p class="uk-text-small uk-margin-remove-top uk-margin-medium-bottom">Sudah Punya Akun? <a href="{{route('home')}}">Masuk</a></p>
                                     <!-- login form begin -->
                                     <form class="uk-grid uk-form" method="POST" action="{{ route('register') }}">
                                         @csrf
@@ -98,7 +98,7 @@
                                         
                                                                                 
                                         <div class="uk-margin-small uk-width-1-1">
-                                            <button class="uk-button uk-width-1-1 uk-button-primary uk-border-rounded uk-float-left" type="submit" >Sign up</button>
+                                            <button class="uk-button uk-width-1-1 uk-button-primary uk-border-rounded uk-float-left" type="submit" >Daftar</button>
                                             
                                         </div>
                                     </form>

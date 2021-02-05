@@ -14,14 +14,14 @@ class UserSeeder extends Seeder
     {
         //
         DB::table('users')->insert([
-            'name' => "Super Admin",
+            'name' => "SuperAdmin Ganteng",
             'email' => "superadmin@forex.com",
             'email_verified_at' => Carbon::now()->toDateString(),            
             'password' => Hash::make('superadminGanteng'),
         ]);
 
         DB::table('users')->insert([
-            'name' => "Admin",
+            'name' => "AdminGanteng",
             'email' => "admin@forex.com",
             'email_verified_at' => Carbon::now()->toDateString(),            
             'password' => Hash::make('adminGanteng'),

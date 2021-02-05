@@ -12,27 +12,27 @@ class RoleSeeder extends Seeder
     public function run()
     {
         DB::table('roles')->insert([
-            'name' => "superadmin",
+            'name' => "Super Admin",
             'level' => 1,            
         ]);
 
         DB::table('roles')->insert([
-            'name' => "admin",
+            'name' => "Admin",
             'level' => 2,            
         ]);
 
         DB::table('roles')->insert([
-            'name' => "reviewer",
+            'name' => "Reviewer",
             'level' => 3,            
         ]);
 
         DB::table('roles')->insert([
-            'name' => "member",
+            'name' => "Premium Member",
             'level' => 4,            
         ]);
 
         DB::table('roles')->insert([
-            'name' => "guest",
+            'name' => "Guest",
             'level' => 5,            
         ]);
     }

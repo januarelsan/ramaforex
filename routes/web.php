@@ -20,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/blog/article/detail/{id}', [ArticleController::class, 'show']);
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,0 +1,39 @@
+<!-- module navigation begin -->
+<nav class="uk-navbar-container uk-navbar-transparent" data-uk-sticky="show-on-up: true; top: 80; animation: uk-animation-fade;">
+    <div class="uk-container" data-uk-navbar>
+        <div class="uk-navbar-left uk-width-auto">
+            <div class="uk-navbar-item">
+                <!-- module logo begin -->
+                <a class="uk-logo" href="{{route('index')}}">
+                    <img class="uk-margin-small-right in-offset-top-10" src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/in-logo-1.svg')}}" alt="wave" width="134" height="23" data-uk-img>
+                </a>
+                <!-- module logo begin -->
+            </div>
+        </div>
+        <div class="uk-navbar-right uk-width-expand uk-flex uk-flex-right">
+            <ul class="uk-navbar-nav uk-visible@m">
+                <li><a href="{{route('index')}}">Home<i class="fas fa-chevron"></i></a></li>
+                <li><a href="#">Testimony<i class="fas fa-chevron"></i></a></li>
+                <li><a href="#">About Us<i class="fas fa-chevron"></i></a></li>
+                <li><a href="#">Blog<i class="fas fa-chevron"></i></a></li>
+                
+            </ul>
+            <div class="uk-navbar-item uk-visible@m in-optional-nav">
+                @guest								
+                    <a href="{{ route('home')}}" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Log in</a>
+                    <a href="{{ route('register')}}" class="uk-button uk-button-primary uk-button-small uk-border-pill">Sign up</a>
+                @else
+                    <a href="#" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>{{ Auth::user()->name }}</a>                            
+                    <a href="{{ route('logout') }}" class="uk-button uk-button-primary uk-button-small uk-border-pill" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                        Log Out
+                    </a>                                                                
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                @endguest
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- module navigation end -->

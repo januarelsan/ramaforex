@@ -18,6 +18,7 @@ class Article extends Model
         'user_id', 
         'title',
         'body',
+        'img_url',
         'created_at',
         'updated_at',
     ];
@@ -25,6 +26,18 @@ class Article extends Model
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    
+
+    public function tags()
+    {
+    
+        return $this->belongsToMany(
+            Tag::class,
+            'article_tags',
+            'article_id',
+            'tag_id');
     }
         
 }

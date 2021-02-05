@@ -17,7 +17,8 @@
                         <p class="uk-text-small uk-text-muted uk-margin-remove-bottom">
                             <a href="#">{{ $article->user->name }}</a>
                             <span class="uk-margin-small-left uk-margin-small-right">•</span>
-                            {{ $article->created_at }}
+                            {{ Carbon\Carbon::parse($article->created_at)->format('d/m/Y')}}
+                            
                         </p>
                     </div>
                 </div>

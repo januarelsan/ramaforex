@@ -9,30 +9,36 @@
             <div class="uk-width-1-1">
                 <article class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded">
                     <div class="uk-card-media-top">
-                        <img src="img/in-blog-image-10.jpg" alt="sample-image">
+                        <img src="{{ URL::to($articles->items()[0]->img_url) }}" alt="sample-image">
                     </div>
                     <div class="uk-card-body">
                         <h3>
-                            <a href="blog-article.html">Here’s what is driving GM’s reported plans to develop a commercial electric van</a>
+                            <a href="blog-article.html">{{$articles->items()[0]->title}}</a>
                         </h3>
                         <p>GM’s electric offensive to bring at least 20 new EVs to market by 2023 reportedly includes a commercial van. Reuters reported Thursday that the company is developing an electric ...
                         </p>
                         <div class="uk-flex uk-flex-middle">
                             <div class="uk-margin-small-right">
-                                <img class="uk-border-pill uk-background-muted" src="img/in-team-5.png" alt="image-team" width="24" height="24">
+                                <img class="uk-border-pill uk-background-muted" src="{{ asset('wave/img/in-team-5.png')}}" alt="image-team" width="24" height="24">
                             </div>
                             <div>
                                 <p class="uk-text-small uk-text-muted uk-margin-remove-bottom">
-                                    <a href="#">Jeffrey Reyes</a>
-                                    <span class="uk-margin-small-left uk-margin-small-right">•</span>
-                                    May 21, 2020
+                                    <a href="#">{{$articles->items()[0]->user->name}}</a>
+                                    <span class="uk-margin-small-left uk-margin-small-right">•</span>                                    
+                                    {{ Carbon\Carbon::parse($articles->items()[0]->created_at)->format('d/m/Y')}}
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="uk-card-footer uk-clearfix">
                         <div class="uk-float-left">
-                            <a href="#"><span class="uk-label uk-label-success uk-border-pill">Automotive</span></a>
+                            @foreach ($articles->items()[0]->tags as $tag)      
+                                @if ($loop->index < 3)
+                                    <a href="#"><span class="uk-label uk-label-success uk-border-pill">{{$tag->value}}</span></a>                                    
+                                @endif
+                            @endforeach
+                            
+                            
                         </div>
                         <div class="uk-float-right">
                             <a href="blog-article.html" class="uk-button uk-button-text">Read more</a>
@@ -41,36 +47,39 @@
                 </article>
             </div>
             @foreach ($articles as $article)
-            <div>
-                <article class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded">
-                    <div class="uk-card-body">
-                        <h3>
-                            <a href="blog-article.html">{{$article->title}}</a>
-                        </h3>
-                        <p>After a series of previous projects together, Sony has secured a ...</p>
-                        <div class="uk-flex uk-flex-middle">
-                            <div class="uk-margin-small-right">
-                                <img class="uk-border-pill uk-background-muted" src="img/in-team-2.png" alt="image-team" width="24" height="24">
+                @if ($loop->index > 0)
+                <div>
+                    <article class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded">
+                        <div class="uk-card-body">
+                            <h3>
+                                <a href="#">{{$article->title}}</a>
+                            </h3>
+                            <p>After a series of previous projects together, Sony has secured a ...</p>
+                            <div class="uk-flex uk-flex-middle">
+                                <div class="uk-margin-small-right">
+                                    <img class="uk-border-pill uk-background-muted" src="{{ asset('wave/img/in-team-2.png')}}" alt="image-team" width="24" height="24">
+                                </div>
+                                <div>
+                                    <p class="uk-text-small uk-text-muted uk-margin-remove-bottom">
+                                        <a href="#">Arthur Parker</a>
+                                        <span class="uk-margin-small-left uk-margin-small-right">•</span>
+                                        {{ Carbon\Carbon::parse($article->created_at)->format('d/m/Y')}}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <p class="uk-text-small uk-text-muted uk-margin-remove-bottom">
-                                    <a href="#">Arthur Parker</a>
-                                    <span class="uk-margin-small-left uk-margin-small-right">•</span>
-                                    May 14, 2020
-                                </p>
+                        </div>
+                        <div class="uk-card-footer uk-clearfix">
+                            <div class="uk-float-left">
+                                <a href="#"><span class="uk-label uk-label-success uk-border-pill">{{$article->tags[0]->value}}</span></a>                            
+                            </div>
+                            <div class="uk-float-right">
+                                <a href="blog-article.html" class="uk-button uk-button-text">Read more</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="uk-card-footer uk-clearfix">
-                        <div class="uk-float-left">
-                            <a href="#"><span class="uk-label uk-label-success uk-border-pill">Investments</span></a>
-                        </div>
-                        <div class="uk-float-right">
-                            <a href="blog-article.html" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div> 
+                @endif
+            
             @endforeach
             
         </div>

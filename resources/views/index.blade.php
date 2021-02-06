@@ -100,7 +100,7 @@
                         <div class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded in-margin-medium-top@s">
                             <div class="uk-grid" data-uk-grid="">
                                 <div class="uk-width-expand@s uk-width-2-5@m uk-card-media-right uk-cover-container uk-first-column">
-                                    <img class="uk-width-1-1 uk-margin-remove-bottom" src="/wave/img/in-wave-image-2.jpg" alt="sample-image">
+                                    <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-image-2.jpg')}}" alt="sample-image">
                                 </div>
                                 <div class="uk-width-1-2@s uk-width-expand@m uk-flex uk-flex-middle">
                                     <div class="uk-card-body">
@@ -205,19 +205,19 @@
                     <div class="uk-width-expand@m">
                         <div class="uk-grid uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center">
                             <div class="uk-tile uk-tile-default">
-                                <img class="uk-margin-remove-bottom" src="img/in-wave-icon-14.svg" alt="wave-icon" width="64">
+                                <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-14.svg')}}" alt="wave-icon" width="64">
                                 <h5 class="uk-margin-small-top">Maximum value</h5>
                             </div>
                             <div class="uk-tile uk-tile-default">
-                                <img class="uk-margin-remove-bottom" src="img/in-wave-icon-15.svg" alt="wave-icon" width="64">
+                                <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-15.svg')}}" alt="wave-icon" width="64">
                                 <h5 class="uk-margin-small-top">Fast executions</h5>
                             </div>
                             <div class="uk-tile uk-tile-default">
-                                <img class="uk-margin-remove-bottom" src="img/in-wave-icon-16.svg" alt="wave-icon" width="64">
+                                <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-16.svg')}}" alt="wave-icon" width="64">
                                 <h5 class="uk-margin-small-top">Trading tools</h5>
                             </div>
                             <div class="uk-tile uk-tile-default">
-                                <img class="uk-margin-remove-bottom" src="img/in-wave-icon-17.svg" alt="wave-icon" width="64">
+                                <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-17.svg')}}" alt="wave-icon" width="64">
                                 <h5 class="uk-margin-small-top">Guide &amp; support</h5>
                             </div>
                             <div class="uk-tile uk-tile-default uk-visible@m">

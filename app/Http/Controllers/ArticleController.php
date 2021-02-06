@@ -15,4 +15,11 @@ class ArticleController extends Controller
         
         return view('blog-article-detail', compact('article'));
     }
+
+    public function list()
+    {
+        $articles = Article::paginate(4)->onEachSide(1);
+        
+        return view('blog-article-list', compact('articles'));
+    }
 }

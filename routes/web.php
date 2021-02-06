@@ -13,9 +13,11 @@ use App\Http\Controllers\ArticleController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/blog/article/detail/{id}', [ArticleController::class, 'show']);
+Route::get('/home', 'HomeController@index')->name('home');

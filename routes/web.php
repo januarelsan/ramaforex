@@ -20,5 +20,5 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/blog/article/detail/{id}', [ArticleController::class, 'show']);
-Route::get('/blog/article/list', [ArticleController::class, 'list']);
+Route::get('/blog/article/list', [ArticleController::class, 'list'])->name('blog.list');
 Route::get('/home', 'HomeController@index')->name('home');

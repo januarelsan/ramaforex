@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Faker\Factory;
 
 class TagSeeder extends Seeder
 {
@@ -11,12 +12,15 @@ class TagSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('tags')->insert([
-            'value' => "kaya",                    
-        ]);
+        $faker = Faker\Factory::create();        
+        
+        for ($i=1; $i < 20; $i++) { 
 
-        DB::table('tags')->insert([
-            'value' => "uang",                    
-        ]);
+            DB::table('tags')->insert([
+                'value' => $faker->word,                    
+            ]);
+        }
+
+        
     }
 }

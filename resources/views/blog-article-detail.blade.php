@@ -9,16 +9,10 @@
     <div class="uk-width-3-4@m">
         <article class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded">
             <div class="uk-card-body">
-                <div class="uk-flex uk-flex-middle uk-margin-remove-bottom">
-                    <div class="uk-margin-small-right">
-                        <img class="uk-border-pill uk-background-muted" src="{{ asset('wave/img/in-team-5.png')}}" alt="image-team" width="24" height="24">
-                    </div>
+                <div class="uk-flex uk-flex-middle uk-margin-remove-bottom">                    
                     <div>
-                        <p class="uk-text-small uk-text-muted uk-margin-remove-bottom">
-                            <a href="#">{{ $article->user->name }}</a>
-                            <span class="uk-margin-small-left uk-margin-small-right">•</span>
-                            {{ Carbon\Carbon::parse($article->created_at)->format('d/m/Y')}}
-                            
+                        <p class="uk-text-small uk-text-muted uk-margin-remove-bottom">                            
+                            {{ Carbon\Carbon::parse($article->created_at)->format('d/m/Y')}}                            
                         </p>
                     </div>
                 </div>

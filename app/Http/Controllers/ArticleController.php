@@ -18,7 +18,7 @@ class ArticleController extends Controller
 
     public function list()
     {
-        $articles = Article::paginate(4)->onEachSide(1);
+        $articles = Article::paginate(5)->onEachSide(1);
         
         return view('blog-article-list', compact('articles'));
     }

@@ -15,7 +15,7 @@ use App\Http\Controllers\ArticleController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/blog/article/detail/{id}', [ArticleController::class, 'show']);

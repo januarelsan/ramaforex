@@ -70,7 +70,7 @@
                 <ul class="uk-slideshow-items uk-light">
                     <li>
                         <div class="uk-position-cover">
-                            <img src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/in-wave-background-1.png')}}" alt="slideshow-image" data-uk-cover width="1920" height="700" data-uk-img>
+                            <img src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/in-wave-background-3.jpg')}}" alt="slideshow-image" data-uk-cover width="1920" height="700" data-uk-img>
                         </div>
                         <span></span>
                         <div class="uk-container">
@@ -118,9 +118,31 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="uk-grid" data-uk-grid="">
+                                <div class="uk-width-expand@s uk-width-2-5@m uk-card-media-right uk-cover-container uk-first-column">
+                                    <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/covid1.jpg')}}" alt="sample-image">
+                                </div>
+                                <div class="uk-width-1-2@s uk-width-expand@m uk-flex uk-flex-middle">
+                                    <div class="uk-card-body">
+                                        <h1>Apakah itu semua Problem  <span class="in-highlight">Anda Sekarang?</span></h1>
+                                        <p>Anda memiliki Peluang yang sangat luar biasa disini untuk menyelesaikan semua permasalahan ini</p>
+                                        
+                                        <hr class="uk-visible@m">
+                                        <ul class="uk-list uk-list-bullet in-list-check">
+                                            <li>Tidak Punya Modal Besar untuk memulai usaha!</li>
+                                            <li>Kurang pengetahuan tentang Bisnis!</li>
+                                            <li>Belum Punya Pengalaman tentang Bisnis!</li>
+                                            <li>Takut gagal memulai Bisnis!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
+                    
                 </div>
+                
             </div>
         </div>
 
@@ -203,36 +225,24 @@
                 <div class="uk-grid" data-uk-grid="">
                     <div class="uk-width-1-3@m uk-first-column">
                         <h1>Logic Kerja<br><span class="in-highlight">BOT</span></h1>
-                        <p>Trade with confidence and benefit from the reliability of a trusted broker with a proven record of stability, security and strength.</p>
-                        <a class="uk-button uk-button-primary uk-border-rounded" href="#">Open an Account</a>
-                        <p class="uk-text-small">Not ready? <a href="#">Sign up for a demo account.</a></p>
+                        <p>Logic Bot Kami sangat Aman. Didampingin oleh Trader Profesional, sehingga Logic Bot Kami selalu UPDATE dengan kondisi Pasar</p>
+                        
                     </div>
                     <div class="uk-width-expand@m">
                         <div class="uk-grid uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center">
                             <div class="uk-tile uk-tile-default">
                                 <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-14.svg')}}" alt="wave-icon" width="64">
-                                <h5 class="uk-margin-small-top">Maximum value</h5>
+                                <h5 class="uk-margin-small-top">Single posisi di XAUUSD</h5>
                             </div>
                             <div class="uk-tile uk-tile-default">
                                 <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-15.svg')}}" alt="wave-icon" width="64">
-                                <h5 class="uk-margin-small-top">Fast executions</h5>
+                                <h5 class="uk-margin-small-top">Target kerja 0,5% sd 3% per hari dengan stoploss maksimal 3% perhari</h5>
                             </div>
                             <div class="uk-tile uk-tile-default">
                                 <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-16.svg')}}" alt="wave-icon" width="64">
-                                <h5 class="uk-margin-small-top">Trading tools</h5>
+                                <h5 class="uk-margin-small-top">Bot hanya 1 kali transaksi perhari jika hasilnya PROFIT</h5>
                             </div>
-                            <div class="uk-tile uk-tile-default">
-                                <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-17.svg')}}" alt="wave-icon" width="64">
-                                <h5 class="uk-margin-small-top">Guide &amp; support</h5>
-                            </div>
-                            <div class="uk-tile uk-tile-default uk-visible@m">
-                                <img class="uk-margin-remove-bottom" src="img/in-wave-icon-9.svg" alt="wave-icon" width="64">
-                                <h5 class="uk-margin-small-top">Financial secure</h5>
-                            </div>
-                            <div class="uk-tile uk-tile-default uk-visible@m">
-                                <img class="uk-margin-remove-bottom" src="img/in-wave-icon-8.svg" alt="wave-icon" width="64">
-                                <h5 class="uk-margin-small-top">Strong regulatory</h5>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -273,32 +283,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="uk-width-1-3@m">
-                        <h3>Check out our Shares offer</h3>
-                        <table class="uk-table uk-table-divider uk-table-striped uk-text-small uk-text-center">
-                            <thead>
-                                <tr>
-                                    <th class="uk-text-center">Name</th>
-                                    <th class="uk-text-center">Initial Deposit</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Apple Inc CFD</td>
-                                    <td>10%</td>
-                                </tr>
-                                <tr>
-                                    <td>Alibaba CFD</td>
-                                    <td>10%</td>
-                                </tr>
-                                <tr>
-                                    <td>Facebook CFD</td>
-                                    <td>10%</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p class="uk-text-small"><a href="#">See Full Shares Table</a></p>
-                    </div>
+                    
                 </div>
             </div>
         </div>

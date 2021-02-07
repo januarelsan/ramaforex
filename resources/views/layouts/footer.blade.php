@@ -91,16 +91,6 @@
     <div class="uk-section uk-section-secondary uk-padding-remove-vertical">
         <div class="uk-container">
             <div class="uk-grid">
-                <div class="uk-width-3-4@m uk-visible@m">
-                    <ul class="uk-subnav uk-subnav-divider">
-                        <li><a href="#">Regulations</a></li>
-                        <li><a href="#">Legal documents</a></li>
-                        <li><a href="#">Important information</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Public relations</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
                 <div class="uk-width-expand@m uk-text-right@m">
                     <p>© 2020 Wave Capital Inc.</p>
                 </div>

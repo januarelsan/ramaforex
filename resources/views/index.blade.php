@@ -51,7 +51,7 @@
                         <div class="uk-card uk-card-secondary uk-card-small uk-card-body uk-border-rounded">
                             <div class="uk-grid uk-text-small" data-uk-grid>
                                 <div class="uk-width-3-4@m uk-visible@m">
-                                    <p>Hubungi Kami Segera Agar Anda Cepat Kaya!</p>
+                                    <p>Ingin segera mendapatkan kebebasan financial dan waktu?! Anda hanya butuh 15 menit saja pelajari peluang disini.Segera Hubungi Kami</p>
                                 </div>
                                 <div class="uk-width-expand@m uk-text-center uk-text-right@m">                                    
                                     <a href="#"><i class="fas fa-phone-alt uk-margin-small-right uk-margin-small-left"></i>1-800-123-4567</a>
@@ -77,8 +77,8 @@
                             <div class="uk-grid" data-uk-grid>
                                 <div class="uk-width-3-5@m">
                                     <div class="uk-overlay">
-                                        <h1>Trading Dengan Robot Lebih Aman</h1>
-                                        <p class="uk-text-lead uk-visible@m">Biarkan Robot Bekerja Untuk Anda!</p>
+                                        <h1>Passive Income ratusan juta hingga Milyaran setiap Bulannya</h1>
+                                        <p class="uk-text-lead uk-visible@m">Jika Anda tidak dapat menemukan cara bagaimana uang bekerja untuk anda ketika anda tidur, maka anda bersiap untuk bekerja seumur hidup anda!</p>
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-visible@m"><i class="fas fa-scroll uk-margin-small-right"></i>Discover it now</a>
                                     </div>
                                 </div>
@@ -92,23 +92,29 @@
                 </div>
             </div>
         </div> <!-- section content begin -->
+        
 
         <div class="uk-section uk-padding-large">
             <div class="uk-container">
                 <div class="uk-grid">
-                    <div class="uk-width-1-1 in-wave-16">
+                    <div class="uk-grid-margin uk-first-column">
                         <div class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded in-margin-medium-top@s">
                             <div class="uk-grid" data-uk-grid="">
                                 <div class="uk-width-expand@s uk-width-2-5@m uk-card-media-right uk-cover-container uk-first-column">
-                                    <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-image-2.jpg')}}" alt="sample-image">
+                                    <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/covid1.jpg')}}" alt="sample-image">
                                 </div>
                                 <div class="uk-width-1-2@s uk-width-expand@m uk-flex uk-flex-middle">
                                     <div class="uk-card-body">
-                                        <h1>Butuh Penghasilan <br><span class="in-highlight">Tambahan ?</span></h1>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur.</p>
+                                        <h1>Apakah Pandemi Menghancurkan <span class="in-highlight">Penghasilan anda?</span></h1>
+                                        <p>Anda memiliki Peluang yang sangat luar biasa disini untuk menyelesaikan semua permasalahan ini</p>
                                         
                                         <hr class="uk-visible@m">
-                                        
+                                        <ul class="uk-list uk-list-bullet in-list-check">
+                                            <li>Butuh biaya untuk kuliah anak?!</li>
+                                            <li>Hutang sudah banyak yang nagih?!</li>
+                                            <li>Tabungan mulai menipis?!</li>
+                                            <li>Tidak bisa beli rokok gudang garam filter?!</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +129,7 @@
             <div class="uk-container">
                 <div class="uk-grid-collapse uk-position-relative uk-grid uk-grid-stack" data-uk-grid="">
                     <div class="uk-position-bottom-right uk-first-column uk-grid-margin">
-                        <img src="img/in-wave-background-2.png" alt="wave-hq" width="540" height="513">
+                        <img src="{{ asset('wave/img/in-wave-background-2.png') }}" alt="wave-hq" width="540" height="513">
                     </div>
                     <div class="uk-width-1-1 uk-first-column">
                         <h1>Keunggulan <span class="in-highlight">Bergabung</span> dengan kami</h1>
@@ -137,10 +143,10 @@
                                             <i class="fas fa-award fa-2x in-icon-wrap small transparent"></i>
                                         </div>
                                         <div>
-                                            <h4 class="uk-margin-remove">Best reputation</h4>
+                                            <h4 class="uk-margin-remove">PROFITABLE</h4>
                                         </div>
                                     </div>
-                                    <p class="uk-margin-small-top">Adipisci sed quia numquam eius modi tempora incidunt ut labore et dolore consequuntur magni dolores.</p>
+                                    <p class="uk-margin-small-top">Terbukti menghasilkan profit secara konsisten selama 2 tahun dan belum pernah gagal mencetak profit setiap bulannya.</p>
                                 </div>
                             </div>
                             <div>
@@ -150,10 +156,10 @@
                                             <i class="fas fa-tools fa-2x in-icon-wrap small transparent"></i>
                                         </div>
                                         <div>
-                                            <h4 class="uk-margin-remove">Advanced tools</h4>
+                                            <h4 class="uk-margin-remove">SIMPLE</h4>
                                         </div>
                                     </div>
-                                    <p class="uk-margin-small-top">Adipisci sed quia numquam eius modi tempora incidunt ut labore et dolore consequuntur magni dolores.</p>
+                                    <p class="uk-margin-small-top">Hanya perlu menggunakan Handphone untuk memantaunya.</p>
                                 </div>
                             </div>
                             <div class="uk-grid-margin uk-first-column">
@@ -163,10 +169,10 @@
                                             <i class="fas fa-users fa-2x in-icon-wrap small transparent"></i>
                                         </div>
                                         <div>
-                                            <h4 class="uk-margin-remove">480,000+ clients</h4>
+                                            <h4 class="uk-margin-remove">OTOMATIS</h4>
                                         </div>
                                     </div>
-                                    <p class="uk-margin-small-top">Adipisci sed quia numquam eius modi tempora incidunt ut labore et dolore consequuntur magni dolores.</p>
+                                    <p class="uk-margin-small-top">Berjalan secara otomatis 100% tanpa perlu otak atik.</p>
                                 </div>
                             </div>
                             <div class="uk-grid-margin">
@@ -176,16 +182,15 @@
                                             <i class="fas fa-building fa-2x in-icon-wrap small transparent"></i>
                                         </div>
                                         <div>
-                                            <h4 class="uk-margin-remove">Worldwide office</h4>
+                                            <h4 class="uk-margin-remove">NYAMAN</h4>
                                         </div>
                                     </div>
-                                    <p class="uk-margin-small-top">Adipisci sed quia numquam eius modi tempora incidunt ut labore et dolore consequuntur magni dolores.</p>
+                                    <p class="uk-margin-small-top">modal dipegang sendiri, profit dan modalnya bisa ditarik kapan saja.</p>
                                 </div>
                             </div>
                         </div>
                         <p class="uk-text-small uk-text-muted uk-margin-large-bottom">
-                            <span class="uk-label uk-text-small uk-text-uppercase uk-border-pill uk-margin-small-right">Start trade</span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing reprehen elit. <a href="#">Join now!</a>
+                            Tenang saja, anda tidak perlu tau tentang trading cukup <br>Mesin Pencetak profit yang 100% menghasilkan untuk anda!.
                         </p>
                     </div>
                 </div>
@@ -232,42 +237,7 @@
                     </div>
                 </div>
             </div>
-            <div class="in-price-list">
-                <div class="uk-container">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-1">
-                            <div data-uk-slider="autoplay: true; autoplay-interval: 5000" class="uk-slider uk-slider-container">
-                                <ul class="uk-slider-items uk-child-width-1-5@m uk-text-small uk-text-center uk-grid" data-uk-grid="" style="transform: translate3d(-242px, 0px, 0px);">
-                                    <li tabindex="-1" class="" style="order: 1;">
-                                        XAUUSD <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 1478.81 &nbsp;(+0.28%)</span>
-                                    </li>
-                                    <li tabindex="-1" class="uk-first-column">
-                                        GBPUSD <span class="uk-label uk-label-danger uk-border-pill uk-margin-small-left"><i class="fas fa-caret-down"></i> 1.3191 &nbsp;(-1.07%)</span>
-                                    </li>
-                                    <li tabindex="-1" class="uk-active">
-                                        EURUSD <span class="uk-label uk-label-danger uk-border-pill uk-margin-small-left"><i class="fas fa-caret-down"></i> 1.1159 &nbsp;(-0.11%)</span>
-                                    </li>
-                                    <li tabindex="-1" class="uk-active">
-                                        USDJPY <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 109.59 &nbsp;(+0.05%)</span>
-                                    </li>
-                                    <li tabindex="-1" class="uk-active">
-                                        USDCAD <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 1.3172 &nbsp;(+0.18%)</span>
-                                    </li>
-                                    <li tabindex="-1" class="uk-active">
-                                        USDCHF <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 0.9776 &nbsp;(+0.06%)</span>
-                                    </li>
-                                    <li tabindex="-1" class="uk-active">
-                                        AUDUSD <span class="uk-label uk-label-danger uk-border-pill uk-margin-small-left"><i class="fas fa-caret-down"></i> 0.67064 &nbsp;(-0.08%)</span>
-                                    </li>
-                                    <li tabindex="-1">
-                                        GBPJPY <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 141.91 &nbsp;(+0.12%)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
         <!-- section content begin -->
@@ -281,22 +251,22 @@
                             </div>
                             <div class="uk-width-expand">
                                 <h3>Apa yang anda dapatkan  ?</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation repudiandae ullamco.</p>
+                                <p>Kami telah mentoring lebih dari 8000 user sehingga dapat menghasilkan profit setiap bulannya secara otomatis tanpa perlu titip dana ke orang lain.</p>
                                 <div class="uk-grid uk-child-width-1-2@s uk-child-width-1-2@m in-margin-bottom-30@s" data-uk-grid="">
                                     <div class="uk-first-column">
                                         <ul class="uk-list uk-list-bullet in-list-check">
-                                            <li>Direct Market Access (DMA)</li>
-                                            <li>Leverage up to 1:500</li>
-                                            <li>T+0 settlement</li>
-                                            <li>Dividends paid in cash</li>
+                                            <li>Sumber penghasilan baru yang otomatis</li>
+                                            <li>Passive Income terbukti konsisten</li>
+                                            <li>Penghasilan tambahan diluar pekerjaan anda saat ini</li>
+                                            <li>Solusi Bisnis di masa Pandemi</li>
                                         </ul>
                                     </div>
                                     <div class="in-margin-small-top@s in-margin-bottom@s">
                                         <ul class="uk-list uk-list-bullet in-list-check">
-                                            <li>Free from UK Stamp Duty</li>
-                                            <li>Short selling available</li>
-                                            <li>Commissions from 0.08%</li>
-                                            <li>Access to 1500 global shares</li>
+                                            <li>Bisnis baru tanpa titip dana ke orang lain</li>
+                                            <li>Bisnis baru yg modalnya Liquid/ bisa ditarik kapanpun anda mau</li>
+                                            <li>Mentoring sampai bisa menghasilkan</li>
+                                            <li>Whatsapp Group Member</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -335,68 +305,6 @@
         <!-- section content end -->
         
         
-
-        <!-- section content begin -->
-        <div class="uk-section uk-section-default uk-padding-remove-vertical in-wave-5 in-offset-bottom-40">
-            <div class="uk-container">
-                <div class="uk-grid">
-                    <div class="uk-width-1-1 uk-background-contain uk-background-center-right uk-background-image@m" style="background-image: url(img/in-wave-mockup-1.png);">
-                        <h1 class="uk-margin-remove-bottom">Start <span class="uk-text-primary">trading</span></h1>
-                        <p class="uk-text-lead">on <span class="uk-text-primary">wave</span> mobile app.</p>
-                        <p class="uk-margin-small-bottom">Available on multiple platform</p>
-                        <a href="#" class="uk-button uk-button-secondary uk-border-rounded in-button-app">
-                            <i class="fab fa-google-play fa-2x"></i>
-                            <span class="wrapper">Download from<span>Play Store</span></span>
-                        </a>
-                        <a href="#" class="uk-button uk-button-secondary uk-border-rounded in-button-app uk-margin-small-left in-margin-remove-left@s">
-                            <i class="fab fa-apple fa-2x"></i>
-                            <span class="wrapper">Download from<span>App Store</span></span>
-                        </a>
-                        <a href="#" class="uk-button uk-button-secondary uk-border-rounded uk-visible@m in-button-app uk-margin-small-left">
-                            <i class="fab fa-windows fa-2x"></i>
-                            <span class="wrapper">Download from<span>Microsoft Store</span></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="in-price-list">
-                <div class="uk-container">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-1">
-                            <div data-uk-slider="autoplay: true; autoplay-interval: 5000">
-                                <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-5@m uk-text-small uk-text-center" data-uk-grid>
-                                    <li>
-                                        XAUUSD <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 1478.81 &nbsp;(+0.28%)</span>
-                                    </li>
-                                    <li>
-                                        GBPUSD <span class="uk-label uk-label-danger uk-border-pill uk-margin-small-left"><i class="fas fa-caret-down"></i> 1.3191 &nbsp;(-1.07%)</span>
-                                    </li>
-                                    <li>
-                                        EURUSD <span class="uk-label uk-label-danger uk-border-pill uk-margin-small-left"><i class="fas fa-caret-down"></i> 1.1159 &nbsp;(-0.11%)</span>
-                                    </li>
-                                    <li>
-                                        USDJPY <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 109.59 &nbsp;(+0.05%)</span>
-                                    </li>
-                                    <li>
-                                        USDCAD <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 1.3172 &nbsp;(+0.18%)</span>
-                                    </li>
-                                    <li>
-                                        USDCHF <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 0.9776 &nbsp;(+0.06%)</span>
-                                    </li>
-                                    <li>
-                                        AUDUSD <span class="uk-label uk-label-danger uk-border-pill uk-margin-small-left"><i class="fas fa-caret-down"></i> 0.67064 &nbsp;(-0.08%)</span>
-                                    </li>
-                                    <li>
-                                        GBPJPY <span class="uk-label uk-label-success uk-border-pill uk-margin-small-left"><i class="fas fa-caret-up"></i> 141.91 &nbsp;(+0.12%)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- section content end -->
     </main>
     @include('layouts.footer')
     <!-- Javascript -->

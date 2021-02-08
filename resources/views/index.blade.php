@@ -82,14 +82,17 @@
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-visible@m"><i class="fas fa-scroll uk-margin-small-right"></i>Discover it now</a>
                                     </div>
                                 </div>
+                                <div class="uk-width-2-5@m">
+                                    <div class="uk-overlay">
+                                        <img src="{{ asset('wave/img/in-wave-mockup-2.png') }}" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </li>
                     
                 </ul>
-                <div class="uk-container uk-light">
-                    <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-center"></ul>
-                </div>
+                
             </div>
         </div> <!-- section content begin -->
         
@@ -212,7 +215,7 @@
                             </div>
                         </div>
                         <p class="uk-text-small uk-text-muted uk-margin-large-bottom">
-                            Tenang saja, anda tidak perlu tau tentang trading cukup <br>Mesin Pencetak profit yang 100% menghasilkan untuk anda!.
+                            Tenang saja, anda tidak perlu tau tentang trading cukup Mesin Pencetak profit yang 100% menghasilkan.
                         </p>
                     </div>
                 </div>
@@ -254,7 +257,7 @@
         <div class="uk-section">
             <div class="uk-container">
                 <div class="uk-grid">
-                    <div class="uk-width-2-3@m">
+                    <div class="uk-width-3-3@m">
                         <div class="uk-grid uk-grid-small" data-uk-grid="">
                             <div class="uk-width-auto@m uk-first-column">
                                 <i class="fas fa-money-bill-wave fa-2x in-icon-wrap large primary-color uk-margin-right"></i>
@@ -274,7 +277,7 @@
                                     <div class="in-margin-small-top@s in-margin-bottom@s">
                                         <ul class="uk-list uk-list-bullet in-list-check">
                                             <li>Bisnis baru tanpa titip dana ke orang lain</li>
-                                            <li>Bisnis baru yg modalnya Liquid/ bisa ditarik kapanpun anda mau</li>
+                                            <li>Bisnis yg modalnya Liquid/ bisa ditarik kapanpun anda mau</li>
                                             <li>Mentoring sampai bisa menghasilkan</li>
                                             <li>Whatsapp Group Member</li>
                                         </ul>
@@ -289,6 +292,56 @@
         </div>
         <!-- section content end -->
         
+        <div class="uk-section uk-padding-large">
+            <div class="uk-container in-wave-4">
+                <div class="uk-grid uk-flex uk-flex-center">
+                    <div class="uk-width-1-1 uk-text-center">
+                        <h1 class="uk-margin-medium-bottom"><span class="in-highlight">Complete</span> package for every traders</h1>
+                    </div>
+                    <div class="uk-width-3-4@m">
+                        <div class="uk-grid-collapse uk-child-width-1-2@m in-wave-pricing uk-grid" data-uk-grid="">
+                            <div class="uk-first-column">
+                                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium">
+                                    <p class="uk-text-small uk-text-uppercase">Minimum pembayaran<span class="uk-label uk-border-pill uk-text-small uk-margin-small-left">IDR 200.000</span></p>
+                                    <h2 class="uk-margin-top uk-margin-remove-bottom">Classic account</h2>
+                                    <p class="uk-text-lead uk-text-muted uk-margin-remove-top">Benefit from industry-leading entry prices</p>
+                                    <hr>
+                                    <ul class="uk-list uk-list-bullet">
+                                        <li>One of the established industry leaders</li>
+                                        <li>Three decades of trading know-how</li>
+                                        <li>Award-winning customer service*</li>
+                                        <li>Highly-regarded trader education*</li>
+                                        <li>Advanced risk management</li>
+                                        <li>Tax-free spread betting profits</li>
+                                        <li>Low minimum deposit</li>
+                                    </ul>
+                                    <a href="#" class="uk-button uk-button-default uk-border-rounded uk-align-center">Open an account<i class="fas fa-chevron-circle-right fa-xs uk-margin-small-left"></i></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-large">
+                                    <p class="uk-text-small uk-text-uppercase">Minimum pembayaran<span class="uk-label uk-border-pill uk-text-small uk-margin-small-left">IDR 500.000</span></p>
+                                    <h2 class="uk-margin-top uk-margin-remove-bottom">Platinum account</h2>
+                                    <p class="uk-text-lead uk-text-muted uk-margin-remove-top">Receive even tighter spreads and commissions</p>
+                                    <hr>
+                                    <ul class="uk-list uk-list-bullet">
+                                        <li>Award-winning trading platform*</li>
+                                        <li>Wide range of charting tools</li>
+                                        <li>Fast, automated excecution</li>
+                                        <li>Expert news &amp; analysis</li>
+                                        <li>Competitive spreads</li>
+                                        <li>Advanced trading tools</li>
+                                        <li>Tax-free spread betting profits</li>
+                                    </ul>
+                                    <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Open an account<i class="fas fa-chevron-circle-right fa-xs uk-margin-small-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
     </main>
     @include('layouts.footer')

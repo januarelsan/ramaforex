@@ -47,18 +47,9 @@
             @include('layouts.nav')
             <div class="uk-container">
                 <div class="uk-grid">
-                    <div class="uk-width-1-1">
-                        <div class="uk-card uk-card-secondary uk-card-small uk-card-body uk-border-rounded">
-                            <div class="uk-grid uk-text-small" data-uk-grid>
-                                <div class="uk-width-3-4@m uk-visible@m">
-                                    <p>Ingin segera mendapatkan kebebasan financial dan waktu?! Anda hanya butuh 15 menit saja pelajari peluang disini.Segera Hubungi Kami</p>
-                                </div>
-                                <div class="uk-width-expand@m uk-text-center uk-text-right@m">                                    
-                                    <a href="#"><i class="fas fa-phone-alt uk-margin-small-right uk-margin-small-left"></i>1-800-123-4567</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    @include('layouts.subnav')
+                    
                 </div>
             </div>
         </div>
@@ -82,11 +73,7 @@
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-visible@m"><i class="fas fa-scroll uk-margin-small-right"></i>Discover it now</a>
                                     </div>
                                 </div>
-                                <div class="uk-width-2-5@m">
-                                    <div class="uk-overlay">
-                                        <img src="{{ asset('wave/img/in-wave-mockup-2.png') }}" alt="">
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </li>
@@ -223,6 +210,7 @@
         </div>
         <!-- section content end -->
 
+        
         <div class="uk-section in-wave-17 in-offset-top-20 in-offset-bottom-40">
             <div class="uk-container">
                 <div class="uk-grid" data-uk-grid="">
@@ -249,9 +237,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         </div>
+        
 
         <!-- section content begin -->
         <div class="uk-section">

@@ -12,8 +12,7 @@
         </div>
         <div class="uk-navbar-right uk-width-expand uk-flex uk-flex-right">
             <ul class="uk-navbar-nav uk-visible@m">
-                <li><a href="{{route('index')}}">Home<i class="fas fa-chevron"></i></a></li>
-                <li><a href="#">Testimony<i class="fas fa-chevron"></i></a></li>
+                <li><a href="{{route('index')}}">Home<i class="fas fa-chevron"></i></a></li>                
                 <li><a href="#">About Us<i class="fas fa-chevron"></i></a></li>
                 <li><a href="{{route('blog.list')}}">Blog<i class="fas fa-chevron"></i></a></li>
                 

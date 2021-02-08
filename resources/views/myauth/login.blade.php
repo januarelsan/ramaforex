@@ -2,24 +2,7 @@
 <html lang="zxx" dir="ltr">
 
 
-<!-- Mirrored from www.indonez.com/html-demo/Wave/signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Feb 2021 01:49:19 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-    <!-- Standard Meta -->
-    <meta charset="utf-8">
-    <meta name="description" content="Premium HTML5 Template by Indonez">
-    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, vanilla javascript">
-    <meta name="author" content="Indonez">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#313131" />
-    <!-- Site Properties -->
-    <title>Sign in - Wave HTML5 Template</title>
-    <link rel="shortcut icon" href="{{ asset('wave/favicon.ico')}}" type="image/x-icon">
-    <link rel="apple-touch-icon-precomposed" href="{{ asset('wave/apple-touch-icon.png')}}">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('wave/css/vendors/uikit.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('wave/css/style.css')}}">
-</head>
+@include('components.head')
 
 <body>
     <!-- preloader begin -->

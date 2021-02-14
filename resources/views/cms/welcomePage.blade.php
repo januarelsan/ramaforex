@@ -1,5 +1,5 @@
 
-@extends('app')
+@extends('cms.app')
 @section('content')
 
 <div class="row">

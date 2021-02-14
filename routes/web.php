@@ -19,6 +19,14 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
+Route::get('/legal', function () {
+    return view('legal');
+})->name('legal');
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+})->name('aboutus');
+
 Route::get('/blog/article/detail/{id}', [ArticleController::class, 'show'])->name('blog.detail.show');
 Route::get('/blog/article/list', [ArticleController::class, 'list'])->name('blog.list');
 Route::get('/home', 'HomeController@index')->name('home');

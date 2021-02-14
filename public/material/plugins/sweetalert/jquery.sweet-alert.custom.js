@@ -99,7 +99,13 @@
                     showConfirmButton: false 
                 }); 
             } else {     
-                swal("Cancelled", "Your data is safe", "error");   
+                swal({   
+                    type: "error",   
+                    title: "Cancelled",   
+                    text: "Your data is safe.",   
+                    timer: 2000,   
+                    showConfirmButton: false 
+                }); 
             } 
         });
     });

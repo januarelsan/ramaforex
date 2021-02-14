@@ -114,7 +114,7 @@
                         <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
                             <div class="uk-flex uk-flex-middle">
                                 <div class="uk-margin-small-right">
-                                    <i class="fas fa-award fa-2x in-icon-wrap small transparent"></i>
+                                    <i class="fas fa-exchange fa-2x in-icon-wrap small transparent"></i>
                                 </div>
                                 <div>
                                     <h4 class="uk-margin-remove">PROFITABLE</h4>

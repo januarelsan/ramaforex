@@ -1,4 +1,4 @@
-@extends('app')
+@extends('cms.app')
 @section('content')
 
 
@@ -26,7 +26,7 @@
                                 <td class="text-overflow: ellipsis; ">Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo </td>
                                 <td><span class="label label-danger">Type</span> </td>
                                 <td>
-                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url('blog/edit') }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
+                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url('cms/blog/edit') }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
                                     <button type="button" id="sa-dellist" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="javascript:;"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
                                 </td>
                             </tr>

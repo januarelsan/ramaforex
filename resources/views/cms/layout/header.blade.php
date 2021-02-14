@@ -1,7 +1,7 @@
 <header class="topbar">
     <nav class="navbar top-navbar navbar-expand-md navbar-light">
         <div class="navbar-header">
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a class="navbar-brand" href="{{ url('cms/welcome') }}">
                 <b>
                     <img src="{{asset('material/images/logo-icon.png')}}" alt="homepage" class="dark-logo" />
                     <img src="{{asset('material/images/logo-light-icon.png')}}" alt="homepage" class="light-logo" />
@@ -34,8 +34,8 @@
                                 <div class="dw-user-box">
                                     <div class="u-img"><img src="{{asset('material/images/users/1.jpg')}}" alt="user"></div>
                                     <div class="u-text">
-                                        <h4>User Name</h4>
-                                        <p class="text-muted">yourEmail@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">Logout</a></div>
+                                        <h4>Steave Jobs</h4>
+                                        <p class="text-muted">varun@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm ">View Profile</a></div>
                                 </div>
                             </li>
                         </ul>

@@ -14,7 +14,7 @@ class TagSeeder extends Seeder
     {
         $faker = Faker\Factory::create();        
         
-        for ($i=1; $i < 20; $i++) { 
+        for ($i=0; $i < 20; $i++) { 
 
             DB::table('tags')->insert([
                 'value' => $faker->word,                    

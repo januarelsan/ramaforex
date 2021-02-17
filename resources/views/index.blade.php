@@ -23,7 +23,7 @@
         <ul class="uk-slideshow-items uk-light">
             <li>
                 <div class="uk-position-cover">
-                    <img src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/in-wave-background-3.jpg')}}" alt="slideshow-image" data-uk-cover width="1920" height="700" data-uk-img>
+                    <img src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/in-wave-background-4.jpg')}}" alt="slideshow-image" data-uk-cover width="1920" height="700" data-uk-img>
                 </div>
                 <span></span>
                 <div class="uk-container">

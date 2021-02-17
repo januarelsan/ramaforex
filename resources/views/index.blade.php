@@ -292,6 +292,40 @@
     </div>
 </div>
 
+<div class="uk-section in-wave-17 in-offset-top-20 in-offset-bottom-40" tabindex="-1" uk-slider>
+    <div class="uk-container">
+        <div class="uk-width-1-1 uk-text-center">
+            <h1 class="uk-margin-medium-bottom"><span class="in-highlight">Testimoni</span> dari para Traders</h1>
+        </div>
+        <div uk-slider>
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
+                <li>
+                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                </li>
+            </ul>
+        </div>
+        
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+    </div> 
+    
+
+</div>
+
 @endsection
 
 

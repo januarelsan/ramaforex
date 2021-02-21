@@ -30,9 +30,13 @@ Route::prefix('cms')->group(function(){
     
     Route::prefix('blog')->group(function(){
         Route::get('list', 'CMS\BlogController@listBlog');
-        Route::get('edit', 'CMS\BlogController@editBlog');
+        Route::get('edit/{id}', 'CMS\BlogController@editBlog');
         Route::get('add', 'CMS\BlogController@addBlog');
+        Route::post('uploadBlog', 'CMS\BlogController@uploadBlog')->name('upload.blog');
+        Route::post('updateBlog', 'CMS\BlogController@updateBlog')->name('update.blog');
+        Route::get('delete/{id}', 'CMS\BlogController@deleteBlog');
     });
+
     
     Route::prefix('about')->group(function(){
         Route::get('list', 'CMS\AboutController@listMedsos');

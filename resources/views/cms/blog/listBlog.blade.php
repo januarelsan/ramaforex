@@ -9,27 +9,34 @@
                 <h4 class="card-title">Data Social Media</h4>
                 <h6 class="card-subtitle">Social Media List</h6>
                 <div class="table-responsive">
+                @if(Session::has('success_delete'))
+                <div class="alert alert-success" role="alert">
+                    {{Session::get('success_delete')}}
+                </div>
+            @endif
                     <table id="myTable" class="table table-bordered table-striped">
                         <thead>
                             <tr>
                                 <th>No</th>
                                 <th>Title</th>
                                 <th>Desc</th>
-                                <th>Category</th>
+                                <th>Picture</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($blogs as $blog)
                             <tr role="row" class="even">
                                 <td >1</td>
-                                <td>Judul Blog</td>
-                                <td class="text-overflow: ellipsis; ">Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo </td>
-                                <td><span class="label label-danger">Type</span> </td>
+                                <td>{{$blog->title}}</td>
+                                <td class="text-overflow: ellipsis; ">{{$blog->desc}}</td>
+                                <td><img width=" 50px" src="{{asset('data_file')}}/{{$blog->logo}}"></td>
                                 <td>
-                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url('cms/blog/edit') }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
-                                    <button type="button" id="sa-dellist" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="javascript:;"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
+                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url ('cms/blog/edit', $blog->id) }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
+                                    <button type="button" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="{{ url ('cms/blog/delete', $blog->id) }}"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
                                 </td>
                             </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

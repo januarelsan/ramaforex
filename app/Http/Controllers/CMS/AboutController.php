@@ -14,20 +14,20 @@ class AboutController extends Controller
 
     public function addMedsos()
     {
-        return view('about.addMedsos');
+        return view('cms.about.addMedsos');
     }
 
     public function editMedsos()
     {
-        return view('about.editMedsos');
+        return view('cms.about.editMedsos');
     }
 
     public function personalData()
     {
-        return view('about.personal');
+        return view('cms.about.personal');
     }
     public function desc()
     {
-        return view('about.description');
+        return view('cms.about.description');
     }
 }

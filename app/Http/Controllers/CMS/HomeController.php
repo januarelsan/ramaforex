@@ -1,70 +1,71 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\CMS;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
     public function content1()
     {
-        return view('home.content1');
+        return view('cms.home.content1');
     }
 
     public function poinsTrouble()
     {
-        return view('home.trouble.poins');
+        return view('cms.home.trouble.poins');
     }
 
     public function listTrouble()
     {
-        return view('home.trouble.list');
+        return view('cms.home.trouble.list');
     }
 
     public function poinsExcellence()
     {
-        return view('home.excellence.poins');
+        return view('cms.home.excellence.poins');
     }
 
     public function titleBgExcellence()
     {
-        return view('home.excellence.titleBg');
+        return view('cms.home.excellence.titleBg');
     }
 
     public function poinsBgBotLogic()
     {
-        return view('home.botLogic.poins');
+        return view('cms.home.botLogic.poins');
     }
 
     public function titleDescBgBotLogic()
     {
-        return view('home.botLogic.titleDesc');
+        return view('cms.home.botLogic.titleDesc');
     }
 
     public function poinsBenefits()
     {
-        return view('home.benefits.poins');
+        return view('cms.home.benefits.poins');
     }
 
     public function titleDescBenefits()
     {
-        return view('home.benefits.titleDesc');
+        return view('cms.home.benefits.titleDesc');
     }
 
 
     public function poinsPackage()
     {
-        return view('home.package.poins');
+        return view('cms.home.package.poins');
     }
 
     public function contentPackage()
     {
-        return view('home.package.package');
+        return view('cms.home.package.package');
     }
 
     public function slider()
     {
-        return view('home.slider');
+        return view('cms.home.slider');
     }
 
     // public function tes()

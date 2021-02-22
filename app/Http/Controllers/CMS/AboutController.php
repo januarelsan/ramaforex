@@ -14,7 +14,6 @@ class AboutController extends Controller
 
     public function addMedsos()
     {
-
         return view('cms.about.addMedsos');
     }
 

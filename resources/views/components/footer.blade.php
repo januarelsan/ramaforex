@@ -1,3 +1,4 @@
+
 <footer>
     <!-- footer content begin -->
     <div class="uk-section uk-section-muted uk-padding-large uk-padding-remove-horizontal uk-margin-medium-top">
@@ -64,15 +65,17 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-expand@m uk-text-right@m">
-                    <p>© 2020 Wave Capital Inc.</p>
+                    <p>© 2021 Akrabot Inc.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- footer content end -->
+    
     <!-- module totop begin -->
-    <div class="uk-visible@m">
-        <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
-    </div>
+    {{-- <div class="uk-visible@m">
+        <a href="js-scroll-trigger" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
+    </div> --}}
     <!-- module totop begin -->
+
 </footer>

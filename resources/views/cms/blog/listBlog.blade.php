@@ -25,15 +25,15 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach($blogs as $blog)
+                            @foreach($articles as $article)
                             <tr role="row" class="even">
-                                <td >1</td>
-                                <td>{{$blog->title}}</td>
-                                <td class="text-overflow: ellipsis; ">{{$blog->desc}}</td>
-                                <td><img width=" 50px" src="{{asset('data_file')}}/{{$blog->logo}}"></td>
+                                <td >{{$article->id}}</td>
+                                <td>{{$article->title}}</td>
+                                <td class="text-overflow: ellipsis; ">{{$article->body}}</td>
+                                <td><img width=" 50px" src="{{asset('data_file')}}/{{$article->img_url}}"></td>
                                 <td>
-                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url ('cms/blog/edit', $blog->id) }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
-                                    <button type="button" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="{{ url ('cms/blog/delete', $blog->id) }}"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
+                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url ('cms/blog/edit', $article->id) }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
+                                    <button type="button" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="{{ url ('cms/blog/delete', $article->id) }}"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
                                 </td>
                             </tr>
                             @endforeach

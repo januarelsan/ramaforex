@@ -1,4 +1,3 @@
-
 @extends('cms.app')
 @section('content')
 
@@ -7,30 +6,37 @@
     <div class="col-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Data Table</h4>
-                <h6 class="card-subtitle">Data table</h6>
+                <h4 class="card-title">Data Social Media</h4>
+                <h6 class="card-subtitle">Social Media List</h6>
                 <div class="table-responsive">
+                @if(Session::has('success_delete'))
+                <div class="alert alert-success" role="alert">
+                    {{Session::get('success_delete')}}
+                </div>
+            @endif
                     <table id="myTable" class="table table-bordered table-striped">
                         <thead>
                             <tr>
-                                <th>Id</th>
+                                <th>No</th>
                                 <th>Title</th>
-                                <th>Description</th>
+                                <th>Desc</th>
                                 <th>Pic</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Apakah Pandemi Menghancurkan Penghasilan anda?</td>
-                                <td>Anda memiliki Peluang yang sangat luar biasa disini untuk menyelesaikan semua permasalahan ini</td>
-                                <td ><img src="{{asset('material/images/users/4.jpg')}}" alt="user" width="80"></td>
+                            @foreach($home_troubles as $home_trouble)
+                            <tr role="row" class="even">
+                                <td >{{$home_trouble->id}}</td>
+                                <td>{{$home_trouble->title}}</td>
+                                <td class="text-overflow: ellipsis; ">{{$home_trouble->desc}}</td>
+                                <td><img width=" 50px" src="{{asset('data_file')}}/{{$home_trouble->pic}}"></td>
                                 <td>
-                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url('about/edit') }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
-                                    <button type="button" id="sa-dellist" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="javascript:;"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
+                                    <button type="button" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Edit" aria-describedby="tooltip19964"><a href="{{ url ('cms/home/trouble/edit', $home_trouble->id) }}"><i class="mdi mdi-border-color" aria-hidden="true"></i></a></button>
+                                    <button type="button" alt="alert" class="btn btn-icon btn-pure btn-outline" data-toggle="tooltip" data-original-title="Delete" aria-describedby="tooltip19964"><a href="{{ url ('cms/home/trouble/delete', $home_trouble->id) }}"><i class="mdi mdi-delete-empty" aria-hidden="true"></i></a></button>
                                 </td>
                             </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

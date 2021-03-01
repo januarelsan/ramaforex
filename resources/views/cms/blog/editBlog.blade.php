@@ -14,7 +14,7 @@
             
                 <form action="{{route('update.blog')}}" method="POST" enctype="multipart/form-data">
                     {{ csrf_field() }}
-                    <input type="hidden" name="id" value="{{$blog->id}}"/>
+                    <input type="hidden" name="id" value="{{$article->id}}"/>
                     <div class="form-body">
                         <h3 class="box-title">Edit Blog</h3>
                         <hr>
@@ -22,7 +22,7 @@
                             <div class="col-md-12 ">
                                 <div class="form-group">
                                     <label>Title</label>
-                                    <input type="text" name="title" value="{{$blog->title}}" class="form-control">
+                                    <input type="text" name="title" value="{{$article->title}}" class="form-control">
                                 </div>
                             </div>
                         </div>
@@ -30,14 +30,14 @@
                             <div class="col-md-12 ">
                                 <div class="form-group">
                                     <label>Description</label>
-                                    <textarea class="form-control" name="desc" placeholder="{{$blog->desc}}" rows="5"></textarea>
+                                    <textarea class="form-control" name="body" placeholder="{{$article->body}}" rows="5"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <h5>Input Image<span class="text-danger">*</span></h5>
                             <div class="controls">
-                                <input type="file" name="logo" src="{{asset('data_file')}}/{{$blog->logo}}" class="form-control" required="" aria-invalid="false"> <div class="help-block"></div></div>
+                                <input type="file" name="img_url" src="{{asset('data_file')}}/{{$article->img_url}}" class="form-control" required="" aria-invalid="false"> <div class="help-block"></div></div>
                         </div>
                     </div>
                     <div class="form-actions">

@@ -62,7 +62,7 @@
                 <div class="uk-card uk-card-default uk-box-shadow-small uk-border-rounded in-margin-medium-top@s">
                     <div class="uk-grid" data-uk-grid="">
                         <div class="uk-width-expand@s uk-width-2-5@m uk-card-media-right uk-cover-container uk-first-column">
-                            <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/covid1.jpg')}}" alt="sample-image">
+                            <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/problem-0.jpg')}}" alt="sample-image">
                         </div>
                         <div class="uk-width-1-2@s uk-width-expand@m uk-flex uk-flex-middle">
                             <div class="uk-card-body">
@@ -78,7 +78,7 @@
                     </div>
                     <div class="uk-grid" data-uk-grid="">
                         <div class="uk-width-expand@s uk-width-2-5@m uk-card-media-right uk-cover-container uk-first-column">
-                            <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/covid1.jpg')}}" alt="sample-image">
+                            <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{ asset('wave/img/problem-1.jpg')}}" alt="sample-image">
                         </div>
                         <div class="uk-width-1-2@s uk-width-expand@m uk-flex uk-flex-middle">
                             <div class="uk-card-body ">
@@ -298,7 +298,7 @@
                                 <li>Bagi hasil 30% : 70%</li>
                                 <li>*Anda menerima 70% dari total profit</li>
                             </ul>
-                            <a href="#" class="uk-button uk-button-default uk-border-rounded uk-align-center">Buka Akun<i class="fas fa-chevron-circle-right fa-xs uk-margin-small-left"></i></a>
+                            <a href="{{ route('register') }}" class="uk-button uk-button-default uk-border-rounded uk-align-center">Buka Akun<i class="fas fa-chevron-circle-right fa-xs uk-margin-small-left"></i></a>
                         </div>
                     </div>
                     <div>
@@ -317,7 +317,7 @@
                                 <li>Bagi hasil 30% : 70%</li>
                                 <li>*Anda menerima 70% dari total profit</li>
                             </ul>
-                            <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Open an account<i class="fas fa-chevron-circle-right fa-xs uk-margin-small-left"></i></a>
+                            <a href="{{ route('register') }}" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Buka Akun<i class="fas fa-chevron-circle-right fa-xs uk-margin-small-left"></i></a>
                         </div>
                     </div>
                 </div>

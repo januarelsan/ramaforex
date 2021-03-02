@@ -9,7 +9,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
-                <h1>Wave Legal Docs</h1>
+                <h1>Akrabot Legal Docs</h1>
             </div>
             <div class="uk-grid-divider uk-child-width-1-3@m uk-child-width-1-2@s" data-uk-grid>
                 <div>

@@ -28,9 +28,7 @@
                             <i class="fas fa-tags"></i><span class="uk-margin-small-left uk-text-bold">Tags: &nbsp;</span>
                             @foreach ($article->tags as $tag)
                                 <a href="#" class="uk-link-muted">{{ $tag->value }}</a>,
-                            @endforeach
-                            
-                            
+                            @endforeach                                                        
                         </div>
                         
                     </div>

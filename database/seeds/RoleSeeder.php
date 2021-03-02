@@ -27,7 +27,7 @@ class RoleSeeder extends Seeder
         ]);
 
         DB::table('roles')->insert([
-            'name' => "Premium Member",
+            'name' => "Member",
             'level' => 4,            
         ]);
 

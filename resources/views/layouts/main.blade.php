@@ -13,7 +13,9 @@
     </div>
     <!-- preloader end -->
     
-    
+    <section id="js-scroll-trigger">
+
+    </section>
 
     <main>
         <!-- section main begin -->
@@ -25,16 +27,19 @@
         
     </main>
 
+    
+
     @include('components.footer')
 
     
     <!-- Javascript -->
     <script src="{{ asset('wave/js/vendors/uikit.min.js')}}"></script>
     <script src="{{ asset('wave/js/vendors/indonez.min.js')}}"></script>
+    <script src="{{ asset('wave/js/config-theme.js')}}"></script>
     @yield('scripts')
+
+    
     
 </body>
 
-
-<!-- Mirrored from www.indonez.com/html-demo/Wave/blog-article.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Feb 2021 01:49:19 GMT -->
 </html>

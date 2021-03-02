@@ -10,39 +10,20 @@
         <div class="uk-grid">
             <div class="uk-width-1-1">
                 <div class="uk-width-3-5@m">
-                    <h1 class="uk-margin-small-bottom">Putting our clients first <span class="in-highlight">since 1986</span></h1>
-                    <p class="uk-text-lead uk-text-muted uk-margin-remove-top">For more than 30 years, we’ve been empowering clients by helping them take control of their financial lives.</p>
+                <h1 class="uk-margin-small-bottom">Menghasilkan pendapatan pasif yang konsisten <span class="in-highlight">sejak 2019</span></h1>
+                </div>
+                <div class="uk-width-1-1@m">
+                    <p>
+                        PT. Rahman Solusi Indonesia merupakan perusahaan penyedia jasa IT development, Custome Made Software dan jasa multimedia untuk beberapa perusahaan besar di Indonesia sejak tahun 2018 dengan visi menjadi perusahaan konsultan terdepan dalam bidang IT dengan selalu memberikan solusi yang inovatif sehingga mitra mampu bersaing secara nasional maupun global.
+                        <br><br>
+                        Akrabot merupakan salah satu produk PT. Rahman Solusi Indonesia dalam hal penyedia layanan jasa expert advisor (automatisasi) dalam perdagangan mata uang asing (forex). 
+                        <br><br>
+                        Akrabot diciptakan sejak tahun 2019 yang sudah familiar di kalangan trader forex khususnya trader nasional. Akrabot merupakan produk perpaduan tim dengan kompetensi tinggi di bidang IT dan professional forex trader yang saling berkerja sama sehingga terciptalah expert advisor yang menguntungkan juga aman digunakan untuk umum.
+
+                    </p>
                 </div>
             </div>
-            <div class="uk-grid uk-grid-large uk-child-width-1-3@m uk-margin-medium-top" data-uk-grid>
-                <div class="uk-flex uk-flex-left">
-                    <div class="uk-margin-right">
-                        <i class="fas fa-leaf fa-lg in-icon-wrap primary-color"></i>
-                    </div>
-                    <div>
-                        <h3>Philosophy</h3>
-                        <p>At vero eos etme accusamus iusto odio ent dignissimos deleniti atque corrupti quos ducimus moll quilla blanditiis expedita est distinctio.</p>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-left">
-                    <div class="uk-margin-right">
-                        <i class="fas fa-hourglass-end fa-lg in-icon-wrap primary-color"></i>
-                    </div>
-                    <div>
-                        <h3>History</h3>
-                        <p>At vero eos etme accusamus iusto odio ent dignissimos deleniti atque corrupti quos ducimus moll quilla blanditiis expedita est distinctio.</p>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-left">
-                    <div class="uk-margin-right">
-                        <i class="fas fa-flag fa-lg in-icon-wrap primary-color"></i>
-                    </div>
-                    <div>
-                        <h3>Culture</h3>
-                        <p>At vero eos etme accusamus iusto odio ent dignissimos deleniti atque corrupti quos ducimus moll quilla blanditiis expedita est distinctio.</p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
@@ -56,8 +37,8 @@
                     <div class="uk-card-body">
                         <div class="uk-grid uk-flex uk-flex-center">
                             <div class="uk-width-3-4@m uk-text-center">
-                                <h2>Trust the Professionals</h2>
-                                <p>We are a group of passionate, independent thinkers who never stop exploring new ways to improve trading for the self-directed investor.</p>
+                                <h2>Para ahli di belakang Akrabot</h2>
+                                {{-- <p>We are a group of passionate, independent thinkers who never stop exploring new ways to improve trading for the self-directed investor.</p> --}}
                             </div>
                         </div>
                         <div class="uk-grid uk-child-width-1-2@m uk-margin-medium-top" data-uk-grid>
@@ -67,8 +48,8 @@
                                 </div>
                                 <div>
                                     <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Chief Executive Officer</p>
-                                    <h4 class="uk-margin-small-top">Cynthia Dixon</h4>
-                                    <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
+                                    <h4 class="uk-margin-small-top">Kristian Dwi Cahyo</h4>
+                                    <p>IT advisor dan Co-Founder PT. RSI. Bekerja di bidang IT selama 11 tahun di berbagai perusahaan besar di Indonesia</p>
                                     <div>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
@@ -81,9 +62,9 @@
                                     <img class="uk-align-center " src="{{ asset('wave/img/in-team-2.png')}}" alt="image-team" width="300">
                                 </div>
                                 <div>
-                                    <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Executive Assistant</p>
-                                    <h4 class="uk-margin-small-top">Arthur Parker</h4>
-                                    <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
+                                    <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Professional Forex Advisor</p>
+                                    <h4 class="uk-margin-small-top">Aminudin</h4>
+                                    <p>Memiliki pengalaman trading forex selama 5 tahun yang menguasai berbagai teknik trading forex secara teknikal</p>
                                     <div>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
@@ -96,8 +77,8 @@
                                     <img class="uk-align-center " src="{{ asset('wave/img/in-team-3.png')}}" alt="image-team" width="300">
                                 </div>
                                 <div>
-                                    <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Marketing Specialist</p>
-                                    <h4 class="uk-margin-small-top">Evelyn Mason</h4>
+                                    <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">APA INII????</p>
+                                    <h4 class="uk-margin-small-top">M. Syahrul Ramadhan</h4>
                                     <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
                                     <div>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>

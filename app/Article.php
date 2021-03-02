@@ -9,6 +9,7 @@ class Article extends Model
     //
 
     protected $primaryKey = 'id';
+    
     /**
      * The attributes that are mass assignable.
      *

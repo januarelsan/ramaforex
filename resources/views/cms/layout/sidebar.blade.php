@@ -14,7 +14,9 @@
                         <li>
                             <a class="has-arrow" aria-expanded="false">Trouble</a>
                             <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url('cms/home/trouble/addList') }}">Add List</a></li>
                                 <li><a href="{{ url('cms/home/trouble/list') }}">Trouble List</a></li>
+                                <li><a href="{{ url('cms/home/trouble/addPoins') }}">Add List</a></li>
                                 <li><a href="{{ url('cms/home/trouble/poins') }}">Point Trouble List</a></li>
                             </ul>
                         </li>
@@ -22,12 +24,20 @@
                             <a class="has-arrow" aria-expanded="false">Excellence</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="{{ url('cms/home/excellence/titleBg') }}">Title n Backgound</a></li>
+                                <li><a href="{{ url('cms/home/excellence/addList') }}">Add Point Excellence</a></li>
                                 <li><a href="{{ url('cms/home/excellence/poins') }}">Point Excellence List</a></li>
                             </ul>
                         </li>
                         <li>
                             <a class="has-arrow" aria-expanded="false">Bot Logic</a>
                             <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a class="has-arrow" aria-expanded="false">Point</a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li><a href="{{ url('cms/home/botLogic/addList') }}">Add</a></li>
+                                        <li><a href="{{ url('cms/home/botLogic/poins') }}">List</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="{{ url('cms/home/botLogic/titleDesc') }}">Title n Desc</a></li>
                                 <li><a href="{{ url('cms/home/botLogic/poins') }}">Bot Logic Point List</a></li>
                             </ul>
@@ -36,6 +46,7 @@
                             <a class="has-arrow" aria-expanded="false">Benefit</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="{{ url('cms/home/benefit/titleDesc') }}">Title n Desc</a></li>
+                                <li><a href="{{ url('cms/home/benefit/addList') }}">Add Benefit Point</a></li>
                                 <li><a href="{{ url('cms/home/benefit/poins') }}">Benefit Point List</a></li>
                             </ul>
                         </li>
@@ -53,6 +64,13 @@
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="{{ url('cms/about/personal') }}">Personal</a></li>
                         <li><a href="{{ url('cms/about/desc') }}">Description</a></li>
+                        <li>
+                            <a class="has-arrow" aria-expanded="false">Member</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url('cms/about/addMember') }}">Add</a></li>
+                                <li><a href="{{ url('cms/about/listMember') }}">List</a></li>
+                            </ul>
+                        </li>
                         <li>
                             <a class="has-arrow" aria-expanded="false">Social Media</a>
                             <ul aria-expanded="false" class="collapse">

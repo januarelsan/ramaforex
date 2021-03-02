@@ -11,10 +11,10 @@
                     {{Session::get('success_add')}}
                 </div>
             @endif
-                <form action="{{route('upload.blog')}}" method="POST" enctype="multipart/form-data">
+                <form action="{{ action('CMS\CmsHomeController@uploadListTrouble') }}" method="POST" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     <div class="form-body">
-                        <h3 class="box-title">Add Blog</h3>
+                        <h3 class="box-title">Add Trouble List</h3>
                         <hr>
                         <div class="row">
                             <div class="col-md-12 ">
@@ -28,14 +28,14 @@
                             <div class="col-md-12 ">
                                 <div class="form-group">
                                     <label>Description</label>
-                                    <textarea class="form-control" name="body" rows="5"></textarea>
+                                    <textarea class="form-control" name="desc" rows="5"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <h5>Input Image<span class="text-danger">*</span></h5>
                             <div class="controls">
-                                <input type="file" name="img_url" class="form-control" required="" aria-invalid="false"> <div class="help-block"></div></div>
+                                <input type="file" name="pic" class="form-control" required="" aria-invalid="false"> <div class="help-block"></div></div>
                         </div>
                     </div>
                     <div class="form-actions">

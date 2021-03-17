@@ -79,7 +79,7 @@
                                 <div>
                                     <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Chief Marketing Officer</p>
                                     <h4 class="uk-margin-small-top">M. Syahrul Ramadhan</h4>
-                                    <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
+                                    <p>Profesional Marketer Selama 5 tahun yang sudah berkecimpung di berbagai lini industri dengan prinsip Good Customer Relationship.</p>
                                     <div>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
                                         <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>

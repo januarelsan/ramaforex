@@ -332,22 +332,17 @@
             <h1 class="uk-margin-medium-bottom"><span class="in-highlight">Testimoni</span> dari para Traders</h1>
         </div>
         <div uk-slider>
-            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">                
                 <li>
-                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                    <img src="{{ asset('testimony_imgs/testimony_1.jpg')}}" alt="">
                 </li>
                 <li>
-                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                    <img src="{{ asset('testimony_imgs/testimony_2.jpg')}}" alt="">
                 </li>
                 <li>
-                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
+                    <img src="{{ asset('testimony_imgs/testimony_3.jpg')}}" alt="">
                 </li>
-                <li>
-                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
-                </li>
-                <li>
-                    <img src="{{ asset('testimony_imgs/testimony_0.jpg')}}" alt="">
-                </li>
+                
             </ul>
         </div>
         

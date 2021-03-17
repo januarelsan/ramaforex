@@ -77,7 +77,7 @@
                                     <img class="uk-align-center " src="{{ asset('wave/img/in-team-3.png')}}" alt="image-team" width="300">
                                 </div>
                                 <div>
-                                    <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">APA INII????</p>
+                                    <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Chief Marketing Officer</p>
                                     <h4 class="uk-margin-small-top">M. Syahrul Ramadhan</h4>
                                     <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
                                     <div>

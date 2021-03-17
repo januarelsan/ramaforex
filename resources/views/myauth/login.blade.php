@@ -24,7 +24,7 @@
                             <div class="uk-width-3-5@m">
                                 <div class="in-padding-horizontal@s">
                                     <!-- module logo begin -->
-                                    <a class="uk-logo" href="{{route('index')}}">
+                                    <a href="{{route('index')}}">
                                         <img class="uk-margin-small-right in-offset-top-10" src="{{ asset('wave/img/in-lazy.gif')}}" data-src="{{ asset('wave/img/logoAkrabot.png')}}" alt="wave" width="134" height="23" data-uk-img>
                                     </a>
                                     <!-- module logo begin -->

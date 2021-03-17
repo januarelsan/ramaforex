@@ -14,8 +14,8 @@
             <ul class="uk-navbar-nav uk-visible@m">
                 <li><a href="{{route('index')}}">Home<i class="fas fa-chevron"></i></a></li>                
                 <li><a href="{{route('aboutus')}}">About Us<i class="fas fa-chevron"></i></a></li>
-                <li><a href="{{route('legal')}}">Legal<i class="fas fa-chevron"></i></a></li>
-                <li><a href="{{route('blog.list')}}">Blog<i class="fas fa-chevron"></i></a></li>
+                {{-- <li><a href="{{route('legal')}}">Legal<i class="fas fa-chevron"></i></a></li>
+                <li><a href="{{route('blog.list')}}">Blog<i class="fas fa-chevron"></i></a></li> --}}
                 
             </ul>
             <div class="uk-navbar-item uk-visible@m in-optional-nav">

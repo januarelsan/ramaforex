@@ -216,15 +216,15 @@
                 <div class="uk-grid uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center">
                     <div class="uk-tile uk-tile-default">
                         <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-14.svg')}}" alt="wave-icon" width="64">
-                        <h5 class="uk-margin-small-top">Single posisi di XAUUSD</h5>
+                        <h5 class="uk-margin-small-top">Single posisi di EURUSD</h5>
                     </div>
                     <div class="uk-tile uk-tile-default">
                         <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-15.svg')}}" alt="wave-icon" width="64">
-                        <h5 class="uk-margin-small-top">Target kerja 0,5% sd 3% per hari dengan stoploss maksimal 3% perhari</h5>
+                        <h5 class="uk-margin-small-top">Target profit konsisten 20% per-bulan dan 1000% per-tahun</h5>
                     </div>
                     <div class="uk-tile uk-tile-default">
                         <img class="uk-margin-remove-bottom" src="{{ asset('wave/img/in-wave-icon-16.svg')}}" alt="wave-icon" width="64">
-                        <h5 class="uk-margin-small-top">Bot hanya 1 kali transaksi perhari jika hasilnya PROFIT</h5>
+                        <h5 class="uk-margin-small-top">Bagi hasil sangat menguntungkan 30%:70%</h5>
                     </div>
                     
                 </div>
